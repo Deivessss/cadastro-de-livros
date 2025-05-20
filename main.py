@@ -81,7 +81,7 @@ def remover_livro():
 
 
 #código main onde o usuário vai escolher o que deseja:
-print('Bem vindo a Livraria do Davi Franklin de Melo')
+print('Bem vindo a Livraria do Davi!')
 while True:
     try:
         print('-' * 46)
