@@ -3,6 +3,15 @@ lista_livro = []
 #acumulador para gerar o id dos livros:
 id_global = 0
 
+#função para mostrar o livro na tela:
+def mostrar_livro(livro):
+    print('-' * 7)
+    print(f"id: {livro['id']}\n"
+          f"Nome: {livro['nome']}\n"
+          f"Autor: {livro['autor']}\n"
+          f"Editora: {livro['editora']}")
+    print('-' * 7)
+
 
 #função para cadastrar um livro novo:
 def cadastrar_livro(id):
@@ -34,32 +43,17 @@ def consultar_livro():
 
         if opcao == 1:
             for livro in lista_livro:
-                print('-' * 7)
-                print(f'id: {livro['id']}\n'
-                      f'Nome: {livro['nome']}\n'
-                      f'Autor: {livro['autor']}\n'
-                      f'Editora: {livro['editora']}')
-                print('-' * 7)
+                mostrar_livro(livro)
         elif opcao == 2:
             id_consulta = int(input('Informe o id: '))
             for livro in lista_livro:
                 if id_consulta == livro['id']:
-                    print('-' * 7)
-                    print(f'id: {livro['id']}\n'
-                          f'Nome: {livro['nome']}\n'
-                          f'Autor: {livro['autor']}\n'
-                          f'Editora: {livro['editora']}')
-                    print('-' * 7)
+                    mostrar_livro(livro)
         elif opcao == 3:
             autor = input('Informe o autor: ').capitalize().strip()
             for livro in lista_livro:
                 if livro['autor'] == autor:
-                    print('-' * 7)
-                    print(f'id: {livro['id']}\n'
-                          f'Nome: {livro['nome']}\n'
-                          f'Autor: {livro['autor']}\n'
-                          f'Editora: {livro['editora']}')
-                    print('-' * 7)
+                    mostrar_livro(livro)
         elif opcao == 4:
             break
         else:
