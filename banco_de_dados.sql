@@ -1,0 +1,13 @@
+CREATE DATABASE cadastro_de_livros
+DEFAULT CHARACTER SET utf8mb4
+DEFAULT COLLATE utf8mb4_general_ci;
+
+USE cadastro_de_livros;
+
+CREATE TABLE livros(
+id INT AUTO_INCREMENT,
+nome VARCHAR(100) NOT NULL,
+autor VARCHAR(100) NOT NULL,
+editora VARCHAR(100) NOT NULL,
+PRIMARY KEY(id)
+)DEFAULT CHARSET = utf8mb4;
