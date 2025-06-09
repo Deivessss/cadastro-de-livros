@@ -3,8 +3,7 @@
 ![MySQL](https://img.shields.io/badge/MySQL-blue?style=flat&logo=mysql&logoColor=white)
 
 Sistema de cadastro de livros usando Python com banco de dados MySQL. Permite cadastrar, consultar e remover livros do banco.
-
-
+ 
 📋 Funcionalidades do programa em Python:
 
 °Consultar todos os livros cadastrados
