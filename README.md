@@ -5,6 +5,7 @@
 Sistema de cadastro de livros usando Python com banco de dados MySQL. Permite cadastrar, consultar e remover livros do banco.
 
 📋 Funcionalidades do programa em Python:
+
 °Consultar todos os livros cadastrados
 °Cadastrar novo livro
 °Consultar por ID
@@ -12,6 +13,7 @@ Sistema de cadastro de livros usando Python com banco de dados MySQL. Permite ca
 °Remover livro
 
 💾 Estrutura do Banco de Dados:
+
 °Tabela livros com os campos: id (auto_increment, primary key), nome, autor, editora.
 
 🗂️ Estrutura dos Arquivos:
