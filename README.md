@@ -15,6 +15,7 @@ Sistema de cadastro de livros usando Python com banco de dados MySQL. Permite ca
 °Tabela livros com os campos: id (auto_increment, primary key), nome, autor, editora.
 
 🗂️ Estrutura dos Arquivos:
+
 ° main.py:
 - Arquivo principal, com todas as funções e a integração com o banco de dados MySQL.
 
