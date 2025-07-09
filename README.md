@@ -6,7 +6,7 @@ Sistema de cadastro de livros desenvolvido em **Python**, com integração ao ba
 
 ---
 
-### 📋 Funcionalidades:
+### 📌 Funcionalidades:
 
 - Consultar todos os livros cadastrados  
 - Cadastrar novo livro  
@@ -16,7 +16,7 @@ Sistema de cadastro de livros desenvolvido em **Python**, com integração ao ba
 
 ---
 
-### 💾 Estrutura do Banco de Dados:
+### 📌 Estrutura do Banco de Dados:
 
 - Tabela livros com os campos:
   - id (PRIMARY KEY, AUTO_INCREMENT)  
@@ -26,7 +26,7 @@ Sistema de cadastro de livros desenvolvido em **Python**, com integração ao ba
 
 ---
 
-### 🗂️ Estrutura dos Arquivos:
+### 📌 Estrutura dos Arquivos:
 
 - **main.py**  
   Arquivo principal, com todas as funções e integração com o banco de dados MySQL.
